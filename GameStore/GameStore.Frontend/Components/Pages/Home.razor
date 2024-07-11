@@ -1,4 +1,5 @@
 ﻿@page "/"
+@using GameStore.Frontend.Models
 
 <PageTitle>Game</PageTitle>
 
@@ -8,37 +9,59 @@
       <th scope="col"></th>
       <th scope="col">Name</th>
       <th scope="col">Genre</th>
-      <th scope="col">price</th>
+      <th scope="col">Price</th>
       <th scope="col">Release Date</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
+    @* <tr>
       <th scope="row">1</th>
       <td>Elden Ring</td>
       <td>Action</td>
       <td>$64</td>
       <td>2024</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Stray</td>
-      <td>RPG</td>
-      <td>$69</td>
-      <td>2024</td>
-    </tr>
-    <tr>
+    </tr> *@
+    @foreach (var game in games) 
+    {
       <tr>
-      <th scope="row">3</th>
-      <td>Halo</td>
-      <td>Action</td>
-      <td>$79</td>
-      <td>2023</td>
-    </tr>
-    </tr>
+        <th scope="row">@game.Id</th>
+        <td>@game.Name</td>
+        <td>@game.Genre</td>
+        <td>@game.Price</td>
+        <td>@game.ReleaseDate</td>
+      </tr>
+    }
   </tbody>
 </table>
 
 @code {
-    
+  private GameSummery[] games =
+  {
+    new GameSummery() 
+    {
+      Id = 1,
+      Name = "Elden Ring",
+      Genre = "Action",
+      Price = 69.99M,
+      ReleaseDate = new DateOnly(2024, 7, 20)
+    },
+
+    new GameSummery() 
+    {
+      Id = 2,
+      Name = "Fifa 24",
+      Genre = "Sports",
+      Price = 59.99M,
+      ReleaseDate = new DateOnly(2023, 7, 20)
+    },
+
+    new GameSummery() 
+    {
+      Id = 3,
+      Name = "GTA V",
+      Genre = "Action",
+      Price = 99.99M,
+      ReleaseDate = new DateOnly(2022, 7, 20)
+    }
+  };
 }

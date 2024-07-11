@@ -2,7 +2,7 @@
 
 public class GameSummery
 {
-    public int id { get; set; }
+    public int Id { get; set; }
     public string? Name { get; set; }
     public string? Genre { get; set; }
     public decimal Price { get; set; }
