@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arkh9\\Desktop\\Project\\GameStore\\GameStore.Frontend\\GameStore.Frontend.csproj",
+      "projectUniqueName": "C:\\Users\\arkh9\\Desktop\\Blazor-GameStore\\GameStore\\GameStore.Frontend\\GameStore.Frontend.csproj",
       "projectName": "GameStore.Frontend",
-      "projectPath": "C:\\Users\\arkh9\\Desktop\\Project\\GameStore\\GameStore.Frontend\\GameStore.Frontend.csproj",
+      "projectPath": "C:\\Users\\arkh9\\Desktop\\Blazor-GameStore\\GameStore\\GameStore.Frontend\\GameStore.Frontend.csproj",
       "packagesPath": "C:\\Users\\arkh9\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arkh9\\Desktop\\Project\\GameStore\\GameStore.Frontend\\obj\\",
+      "outputPath": "C:\\Users\\arkh9\\Desktop\\Blazor-GameStore\\GameStore\\GameStore.Frontend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arkh9\\AppData\\Roaming\\NuGet\\NuGet.Config",

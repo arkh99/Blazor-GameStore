@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LDE+us8X7tB3GUCeyCls3WXDsZd8CGVOWX/3YRiQ/x0sBtr+Cd5Q3EtvFyKFrxDpkstoLvPyuBPDOw9iqoy8lw==",
+  "dgSpecHash": "8wXdwUg0ZizS44Lutlr1c4eurApD6GmQn/OODD7Wod9Cd78k+ksRpTNFqxMUyrndUKV7E6g95p7zYzGaumqvJA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\arkh9\\Desktop\\Project\\Gamestore\\GameStore.Frontend\\GameStore.Frontend.csproj",
+  "projectFilePath": "C:\\Users\\arkh9\\Desktop\\Blazor-GameStore\\Gamestore\\GameStore.Frontend\\GameStore.Frontend.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
